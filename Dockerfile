@@ -7,5 +7,3 @@ RUN echo 'deb http://debian.neo4j.org/repo stable/' > /etc/apt/sources.list.d/ne
 RUN apt-get update
 
 RUN apt-get install -y neo4j
-
-ENTRYPOINT ["neo4j", "start"]
